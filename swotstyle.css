@@ -1,0 +1,43 @@
+ 
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+}
+
+
+
+table, th, td{
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+th,td{
+  padding: 10px;
+
+}
+
+caption{
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  color:	#00008B;
+}
+
+tr:nth-child(odd){
+  background-color: #ddd;
+}
+
+tr:nth-child(even){
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
