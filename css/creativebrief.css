@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #ddd;
+	padding-top: 20px;
+	font-family: Arial;}
+
+#house {
+	background-color: #fff;
+}
+
+header {
+	border: solid 1px;
+	padding-left: 15px;
+}
+
+nav {
+	background: #ddd;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+nav a:link, nav a:visited {
+	font: bold 1.2em Arial;
+	text-decoration: none;
+	padding: 6px;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: yellow;
+}
+
+nav ul, footer ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li, footer li {
+	display: inline;
+}
+
+main {
+	border: solid 1px;
+}
+
+main a:hover {
+	color: yellow;
+}
+
+footer {
+	background: #ddd;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+footer a:link, footer a:visited {
+	font: bold 1.2em Arial;
+	text-decoration: none;
+	padding: 6px;
+	text-transform: uppercase;
+}
+
+footer a:hover {
+	color: yellow;
+}
+
+/*CSS for the SWOT table*/
+
+ 
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+}
+
+
+
+table, th, td{
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+th,td{
+  padding: 10px;
+
+}
+
+caption{
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  color:	#00008B;
+}
+
+tr:nth-child(odd){
+  background-color: #ddd;
+}
+
+tr:nth-child(even){
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
